@@ -1,0 +1,30 @@
+{
+    "name": "motuo/call-watson-api",
+    "description": "Call Watson API(Assistant and Discovery Service)",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "keywords": ["Laravel","watson"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yousuke Enomoto",
+            "email": "enomotu@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "motuo\\CallWatsonAPI\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "motuo\\CallWatsonAPI\\CallWatsonServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
