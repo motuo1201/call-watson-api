@@ -8,7 +8,10 @@
 Such as:
 
 - Call Watson Assistant API(Get response to user input)
+- Call Watson Discovery Service API
 
+Japanese Document  
+日本語記事は[こちら](https://qiita.com/motuo/items/27b7f50fba64c1dd149f)
 
 ## Installation
 
