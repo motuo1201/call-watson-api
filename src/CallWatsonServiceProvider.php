@@ -17,7 +17,10 @@ class CallWatsonServiceProvider extends ServiceProvider
             __DIR__.'\\config\\watson.php' => config_path('watson.php'),
         ]);
         $this->app->singleton('CallAssistant',function($app){
-            return new CallAssistant(config(watson));
+            return new CallAssistant(config('watson'));
+        });
+        $this->app->singleton('CallDiscovery',function($app){
+            return new CallDiscovery(config('watson'));
         });
     }
 
