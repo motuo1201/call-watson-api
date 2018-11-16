@@ -1,4 +1,4 @@
-# Call Watson Assistant API
+# Call Watson API for Assistant and Discovery
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/motuo/call-watson-api.svg?style=flat-square)](https://packagist.org/packages/motuo/call-watson-api)
