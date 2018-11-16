@@ -101,7 +101,6 @@ class TestContoller extends Controller
         $CWD->listTrainingData();
         $CWD->getQueryIdByNLQ('natural_language_query');
         $CWD->addQueryToTrainingData('document_id','natural_language_query',100);
-        $CWD->addQueryToTrainingData('document_id','natural_language_query',100);
         $CWD->deleteTrainingDataQuery('query_id');
         //Management Examples
         $CWD->listExamplesTrainingData('query_id');
